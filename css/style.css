@@ -1,0 +1,64 @@
+*{
+	font-family: monospace;
+	padding: 10px;
+	
+}
+
+body{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	color:whitesmoke;
+	background-color: maroon;
+	width: auto;
+}
+
+h3{
+	color: skyblue ;
+	background-color: black;
+	width: 200px;
+}
+.horizontal{
+	font-family: cursive;
+	border: 3px solid blue;
+	text-align: center;
+}
+
+.vertical{
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+	color:red;
+	font-family: sans-serif;
+	border: 1px solid;
+	line-height: normal;
+}
+
+#vert{
+	vertical-align: 10px;
+	line-height:40px;
+}
+
+.container {
+  height: 200px;
+  position: relative;
+  border: 2px solid green;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.vc{
+	height: 200px;
+    display: table-cell;
+    vertical-align: middle;
+    border: 2px solid red;
+}
